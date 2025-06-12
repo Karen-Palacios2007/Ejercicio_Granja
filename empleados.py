@@ -1,18 +1,11 @@
-class Empleados:
+class Empleado:
     def __init__(self,cedula,nombre,cargo):
         self._cedula=cedula
         self._nombre=nombre
         self._cargo=cargo 
-    
-    def crear(self):
-        pass       
-    def eliminar(self):
-        pass       
-    def modificar(self):
-        pass       
     def realizarTarea(self):
-        pass       
+        print (f"{self._nombre} esta realizando una tarea...")       
     def registrarAsistencial(self):
-        pass       
+        print ("Se ha registrado el asistencial...")
     def reportarIncidencias(self):
-        pass   
+        print (f"{self._nombre} ha reportado una incidencia")

@@ -4,8 +4,8 @@ class Animal:
         self._edad=edad
         self._sexo=sexo
     def alimentar(self):
-        pass
+        print (f"{self._tipo} ha sido alimentado")
     def vacunar(self):
-        pass
-    def registrarPeso(self):
-        pass
+        print (f"{self._tipo} ha sido vacunado")
+    def registrarPeso(self,peso):
+        print (f"{self._tipo}: {peso} kg")
