@@ -1,7 +1,4 @@
 from animal import Animal
-from acuatico import animalAcuatico
-from aereo import animalAereo
-from terrestre import animalTerrestre
 from corral import corral
 from empleados import Empleado
 from granja import Granja
