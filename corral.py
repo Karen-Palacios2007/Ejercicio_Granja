@@ -9,7 +9,7 @@ class Corral():
         self.estado=estado
 # Se agregan metodos de la clase   
     def limpiar(self):
-        print (f" El corral {self.id} ha sido limpiado")
+        print (f" El corral {self._idCorral} ha sido limpiado")
     def asignarAnimal(self,animal):
         self.animales.append(animal)    
     def verificarEstado(self,animal):

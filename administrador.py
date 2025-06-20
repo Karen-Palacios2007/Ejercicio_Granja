@@ -5,7 +5,8 @@ from empleado import Empleado
 class Administrador(Empleado):
     def __init__ (self,idEmpleado,nombre,cargo):
         super().__init__(idEmpleado,nombre,cargo)
-    
+
+# Se agregan metodos propios de la clase   
     def supervisarCorrales(self):
         pass
     def registrarAsistencias(self):

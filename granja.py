@@ -3,6 +3,7 @@ class Granja:
     def __init__(self,nombre,cant_corral,cant_empleados):
         self._nombre=nombre
 
+# Se agregan metodos propios de la clase      
     def administrar(self):
         pass
     def generarReportes(self,corral,Animal):        
