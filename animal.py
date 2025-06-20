@@ -1,17 +1,17 @@
 # Se Crea la clase "Cerdo" con sus atributos
 class Animal:
-    def __init__(self,tipo, edad, sexo):
-        self.tipo=tipo
+    def __init__(self,idAnimal, edad, peso):
+        self.idAnimal=idAnimal
         self.edad=edad
-        self.sexo=sexo
+        self.peso=peso
 
 # Se agregan metodos de la clase
     def alimentar(self):
-        print (f"{self._tipo} ha sido alimentado")
+        print (f"{self.tipo} ha sido alimentado")
     def vacunar(self):
         print (f"{self.tipo} ha sido vacunado")
-    def registrarPeso(self,peso):
-        print (f"{self.tipo}: {peso} kg")
+    def registrarPeso(self):
+        print (f"{self.tipo}: {self.peso} kg")
         
 # Se retornan los datos haciendo uso de "get_"    
     def get_tipo(self):

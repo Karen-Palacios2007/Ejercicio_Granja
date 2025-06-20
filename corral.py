@@ -1,18 +1,18 @@
+#Se importa la clase "Animal" de "animal.py" 
 from animal import Animal
 
 #Se crea la clase "Corral" con sus atributos
 class Corral():
-    def __init__(self,id):
-        self._id=id
-        self.animales=[]
-        
+    def __init__(self,_idCorral,capacidad,estado):
+        self._idCorral=_idCorral
+        self.capacidad=capacidad
+        self.estado=estado
 # Se agregan metodos de la clase   
     def limpiar(self):
         print (f" El corral {self.id} ha sido limpiado")
-    def agregarAnimales(self,animal):
+    def asignarAnimal(self,animal):
         self.animales.append(animal)    
-    def mostrarAnimal(self,animal):
-        for animal in self.animales:
-            print (f"Animal: {animal}")
+    def verificarEstado(self,animal):
+        pass
     
     

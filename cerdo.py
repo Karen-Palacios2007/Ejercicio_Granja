@@ -1,7 +1,9 @@
-#Se importa la clase "Animal" del archivo "animal"
+#Se importa la clase "Animal" de "animal.py" 
 from animal import Animal
 
-# Se Crea la clase "Cerdo" con sus atributos, aplicando la herencia de la clase "Animal"
 class Cerdo(Animal):
-    def __init__(self, tipo, edad, sexo):
-        super().__init__(tipo, edad, sexo)
+    def __init__ (self,idAnimal, edad, peso):
+        super().__init__(idAnimal, edad, peso)
+        
+    def controlPeso(self):
+        pass

@@ -2,15 +2,12 @@
 class Granja:
     def __init__(self,nombre,cant_corral,cant_empleados):
         self._nombre=nombre
-        self._corrales=[]
-        self._empleados=[]
 
-    def registrarEmpleado(self):
-        print (f"Empleado {self._nombre}")
-    def asignarAnimal(self,corral,Animal):
-        
-        self.corral.append(corral)
-        self.animal.append(Animal)
+    def administrar(self):
+        pass
+    def generarReportes(self,corral,Animal):        
+        pass
+
 
     
 
