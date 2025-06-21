@@ -7,12 +7,8 @@ class Empleado:
         self._cargo=cargo 
         
 # Se agregan metodos de la clase
-    def AlimentarAnimales(self):
-        print (f"{self._nombre} esta alimentanddo a los animales \n")     
-        self.tipoAlimento=input("Tipo de alimento que le proporcionara al animal: ")
-        self.cantAlimento=input("Cantidad del alimento a proporcionar: ")
-        print (f"{self._nombre} esta alimentando...")
-
+    def realizarTarea(self):
+        pass
     def registrarAsistencial(self):
         print ("Se ha registrado el asistencial...")
 
